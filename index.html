@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Estate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#">Logo</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#sale">Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#rent">Rent</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./login.html" class="login-button"> Contact</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section class="hero-section">
+        <div class="container d-flex align-items-center justify-content-center fs-1 
+      text-white flex-column">
+            <h1 class="text-capitalize ">Smart investment for a stable futurer</h1>
+            <h3>We help you build your wealth by acquiring high-quality
+                <br>
+                local real estate,ensuring long-term financial stability.
+            </h3>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h3 class="special-heading">About Us</h3>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-center  mb-lg-0 mb-sm-0 pb-sm-0">
+                    <img class="img-fluid" src="./image/logo.png" alt="Company Logo">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h2>MEJID EMLAK</h2>
+                    <p>We are a company specialized in providing the best local real estate opportunities. We aim to
+                        enable our clients to achieve financial stability through smart and effective real estate
+                        investments. Our team of experts is dedicated to offering tailored services to meet the unique
+                        needs of each client, ensuring that every investment is both profitable and secure. With years
+                        of experience in the real estate market, we pride ourselves on our transparency, integrity, and
+                        commitment to delivering the highest standards of service. Whether you are looking to buy, sell,
+                        or invest, we are here to guide you every step of the way.</p>
+                        <a href="login.html" class="btn btn-info">Contact</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Services Section -->
+    <div class="services" id="services">
+        <div class="container">
+            <h3 class="special-heading py-sm-5">Services</h3>
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 pt-lg-5 ">
+                    <div class="card ">
+                        <i class="bi bi-tags text-success text-center" style="font-size: 32px;"></i>
+                        <div class="card-body text-center ">
+                            <h5 class="card-title">Sale</h5>
+                            <p class="card-text">We guarantee that your property will be sold quickly and at the best
+                                possible
+                                value, through innovative marketing strategies and accurate market analysis, to achieve
+                                a
+                                successful sale that meets your expectations.</p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 pb-lg-5">
+                    <div class="card">
+                        <i class="bi bi-star text-warning text-center" style="font-size: 32px;"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rent</h5>
+                            <p class="card-text">We guarantee that your property will be sold quickly and at the best
+                                possible
+                                value, through innovative marketing strategies and accurate market analysis, to achieve
+                                a
+                                successful sale that meets your expectations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 py-lg-5">
+                    <div class="card">
+                        <i class="bi bi-person text-primary text-center" style="font-size: 32px;"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Consultation</h5>
+                            <p class="card-text">Get specialized real estate advice that ensures you make the right
+                                decisions, whether you are thinking of buying, selling, or investing in real estate, to
+                                achieve the best financial results.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Services Section -->
+
+    <!-- Start Sale Section -->
+    <div class="sale" id="sale">
+        <div class="container">
+            <h3 class="special-heading">Sale</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">For Sale 3+1 Luxury </h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#111111111</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Mersin/Akdeniz</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>3+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder"> 4.410.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">flat for sale</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#22222222</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Mersin/Mezitli</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>1+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">2.870.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Full Sea View</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#33333333</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Mersin/Yenişehir</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>2+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder"> 3.210.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/24.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">NEIGHBOUR TO LIFE VALLEY</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#4444444444</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Trabzon/Çarşı</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>2+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder"> 2.740.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/25.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">150 MT Distance to the Sea</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#555555555</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Osmaniye/Karatepe</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>3+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">3.800.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/26.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">For Sale 3+1 Luxury</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#66666666</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Ankara/Anadolu </span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>4+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder"> 4.400.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3">
+                    <div class="card">
+                        <img src="./image/27.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Full Sea View</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#77777777</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Diyarbakır/Iskender</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>3+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder"> 2.440.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Sale Section -->
+
+    <!-- Start Rent Section-->
+    <div class="rent" id="rent">
+        <div class="container">
+            <h3 class="special-heading">Rent</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" >
+                        <img src="./image/17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Spectacular sea view</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#888888888</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Istanbul/Akdeniz</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>2+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">40.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" >
+                        <img src="./image/18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Across The University</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#123456789</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Izmir/Akdeniz</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>4+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">60.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" >
+                        <img src="./image/19.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Fully Furnished</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#9876543210</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Mersin/Toroslar</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>1+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">20.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" >
+                        <img src="./image/21.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Close to the university</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#0123478960</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Ankara/Çarşı</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>3+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">33.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" >
+                        <img src="./image/22.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-capitalize">Close to metrobus</h4>
+                            <p class="card-text">
+                                <span class="forSearchResults text-body-tertiary">#7418529630</span>
+                                <br>
+                                <span><span
+                                        class="text-body-tertiary text-capitalize">city/region:</span>Kaysri/Çarşı</span>
+                                <br>
+                                <span><span class="text-body-tertiary text-capitalize">number of rooms:</span>2+1</span>
+                                <br>
+                                <span class="text-body-tertiary text-capitalize">price:</span>
+                                <span class="text-danger fw-bolder">37.000</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <!-- End Rent Section -->
+
+    <!-- Start Consultation Section  -->
+    <section class="Consultation" id="consultation">
+        <div class="container">
+            <h3 class="special-heading">Consultation</h3>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-center mb-4">
+                    <img class="img-fluid rounded " src="./image/consultation.png" alt="consultation">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h2>Real estate consultation</h2>
+                    <p>We provide comprehensive and personalized real estate advice to help you make the right decisions
+                        every step of your real estate journey. Whether you are looking to buy a new property, sell an
+                        existing property, or invest in the real estate market, our team of real estate experts are
+                        ready to provide accurate advice and information based on in-depth market analysis. We are here
+                        to simplify the process, help you achieve your financial goals, and work with you to ensure that
+                        every decision you make is based on a full understanding of all available options.</p>
+                    <a href="login.html" class="btn btn-info">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Consultation Section -->
+
+    <!-- Start Contact Section -->
+    <div class="footer my-3 py-3" id="contact">
+        <div class="container">
+            <h3 class="special-heading">Footer</h3>
+            <div class="row">
+                <div class="col-lg-8 col-md-6 mb-sm-4">
+                    <form class="text-light ">
+                        <h4 class="text-center fw-bolder ">To Communicate</h4>
+                        <div class="mb-3">
+                            <label for="custo" class="form-label">Name :</label>
+                            <input type="text" class="form-control"  placeholder="Enter Your Name" id="custo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number :</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter Your Phone Number" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messa" class="form-label">Message :</label>
+                            <textarea class="form-control" id="messa" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-primary" onclick="save()">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-6  ">
+                    <div class="contact ">
+                        <h5 class="text-light">Contact Us</h5>
+                        <p class="lh-lg mt-3 mb-5 text-light">Get in touch with us via mail phone.We are waiting for
+                            your call or
+                            message</p>
+                        <a class=" btn text-decoration-none rounded-pill w-100 " href="#">graphberry@gmail.com</a>
+                        <ul class="d-flex mt-5 gap-3 pe-4 align-items-sm-center justify-content-center list-unstyled">
+                            <li>
+                                <a class="d-block  text-decoration-none" href="#"><i
+                                        class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-decoration-none" href="#"><i
+                                        class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-decoration-none" href="#"><i
+                                        class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-decoration-none" href="#"><i
+                                        class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="py-1 text-white text-center">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2024 <span class="text-warning">MEJID EMLAK</span>
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
